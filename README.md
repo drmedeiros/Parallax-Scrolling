@@ -1,2 +1,5 @@
 # Parallax-Scrolling
- Practicing
+
+Practicing
+Updating img otimization.
+May not work in all resolutions.

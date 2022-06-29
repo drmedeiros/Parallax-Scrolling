@@ -23,7 +23,7 @@ header {
   overflow: hidden;
 }
 
-header::after {
+header:after {
   content: "";
   position: absolute;
   width: 100%;
@@ -118,8 +118,8 @@ nav .container {
   border-radius: 2px;
 }
 
-.bar::before,
-.bar::after {
+.bar:before,
+.bar:after {
   content: "";
   position: absolute;
   width: 1.55rem;
@@ -129,11 +129,11 @@ nav .container {
   border-radius: 2px;
 }
 
-.bar::before {
+.bar:before {
   transform: translateY(-8px);
 }
 
-.bar::after {
+.bar:after {
   transform: translateY(8px);
 }
 
@@ -230,4 +230,4 @@ section .container > * {
   .title {
     font-size: 1.2rem;
   }
-} ;
+}
